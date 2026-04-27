@@ -37,7 +37,7 @@ function App() {
   const handleReview = async () => {
     setLoading(true);
     try {
-      const { data } = await axios.post(`${import.meta.env.VITE_API_URL}/api/review`, {
+      const { data } = await axios.post("https://codereviewer-8xzy.onrender.com/api/review", {
         code,
         language
       });
