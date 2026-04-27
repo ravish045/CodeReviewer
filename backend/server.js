@@ -1,3 +1,4 @@
+console.log("ENV KEY:", process.env.OPENROUTER_API_KEY);
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
